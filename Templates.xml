@@ -1,3 +1,5 @@
+<!-- --Fightclub Templates-- -->
+
 <!--Class template-->
 <class>
 	<name></name>
@@ -161,3 +163,52 @@
 	<roll>xdx+CHA</roll> <!--add CHA MOD-->
 	<roll>xdx+PROF</roll> <!--add PROF-->
 </spell>
+
+<!-- --Game Master templates-- -->
+
+<!--PC / NPC  template (only difference is weather it is enclosed with a <pc> or <npc> tag)-->
+<pc>
+	<lable></lable>
+	<name></name>
+	<size>m</size>
+	<type></type>
+	<alignment></alignment>
+	<ac></ac>
+	<hp></hp>
+	<speed></speed>
+	<str>10</str>
+	<dex>10</dex>
+	<con>10</con>
+	<int>10</int>
+	<wis>10</wis>
+	<cha>10</cha>
+	<save></save>
+	<skill></skill>
+	<immune></immune>
+	<senses></senses>
+	<languages>Common</languages>
+	<cr>1/2</cr>
+
+	<trait>
+		<name></name>
+		<text>
+
+		</text>
+	</trait>
+
+	<action>
+		<name></name>
+		<text>
+
+		</text>
+	</action>
+
+</pc>
+
+<!-- Note template -->
+<note>
+	<title></title>
+	<text>
+
+	</text>
+</note>
