@@ -25971,4 +25971,49 @@
 		</legendary>
 		<spells>detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport</spells>
 	</monster>
+
+	<!-- Storm Kings Thunder Additions -->
+	<monster>
+		<name>Crag Cat</name>
+		<size>Large</size>
+		<type>Beast</type>
+		<alignment>unaligned</alignment>
+		<ac>13</ac>
+		<hp>34 (4d10+12)</hp>
+		<speed>40 ft.</speed>
+		<str>16</str><dex>17</dex><con>16</con><int>4</int><wis>14</wis><cha>8</cha>
+		<skill>Perception +4, Stealth +7</skill>
+		<senses>darkvision 60 ft.</senses>
+		<passive>14</passive>
+		<cr>1</cr>
+		<trait>
+			<name>Nondetection</name>
+			<text>The cat can't be targeted or detected by any divination magic or perceived through magical scrying sensors.</text>
+		</trait>
+		<trait>
+			<name>Pounce</name>
+			<text>
+				If the cat moves at least 20 feet straight towards a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the cat can make one bite attack against it as a bonus action.
+			</text>
+
+		</trait>
+		<trait>
+			<name>Spell Turning.</name>
+			<text>
+				The cat has advantage on saving throws against any spell that targets only the cat (not an area). If the cat's saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster.
+			</text>
+		</trait>
+		<action>
+			<name>Bite</name>
+			<text>Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 8(1d10 + 3) piercing damage.</text>
+			<attack>Bite|5|1d10+3</attack>
+		</action>
+		<action>
+			<name>Claw</name>
+			<text>
+				Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 7(1d8+3)slashing damage.
+			</text>
+			<attack>Claw|5|1d8+3</attack>
+		</action>
+	</monster>
 </compendium>
