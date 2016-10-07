@@ -401,6 +401,14 @@
 		<text>Source: Dungeon Master's Guide, page 135</text>
 	</item>
 	<item>
+		<name>2500 GP - A necklace string of small pink pearls</name>
+		<type>$</type>
+		<weight>0</weight>
+		<text>This art object is worth 2500 gp.</text>
+		<text />
+		<text>Source: Dungeon Master's Guide, page 135</text>
+	</item>
+	<item>
 		<name>2500 GP - Embroidered glove set with jewel chips</name>
 		<type>$</type>
 		<weight>0</weight>
@@ -466,14 +474,6 @@
 	</item>
 	<item>
 		<name>2500 GP - Platinum bracelet set with a sapphire</name>
-		<type>$</type>
-		<weight>0</weight>
-		<text>This art object is worth 2500 gp.</text>
-		<text />
-		<text>Source: Dungeon Master's Guide, page 135</text>
-	</item>
-	<item>
-		<name>2500 GP - A necklace string of small pink pearls</name>
 		<type>$</type>
 		<weight>0</weight>
 		<text>This art object is worth 2500 gp.</text>
@@ -803,12 +803,14 @@
 	<item>
 		<name>Abacus</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>2</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Acid (vial)</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>1</weight>
 		<text>As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.</text>
 		<text />
@@ -916,6 +918,7 @@
   <item>
 		<name>Alchemist's Fire (flask)</name>
 		<type>G</type>
+		<value>50gp</value>
 		<weight>1</weight>
 		<text>This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.</text>
 		<text />
@@ -924,6 +927,7 @@
 	<item>
 		<name>Alchemist's Supplies</name>
 		<type>G</type>
+		<value>50gp</value>
 		<weight>8</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -999,6 +1003,7 @@
   <item>
 		<name>Antitoxin</name>
 		<type>G</type>
+		<value>50gp</value>
 		<text>A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
@@ -1128,7 +1133,17 @@
   <item>
 		<name>Arrows</name>
 		<type>A</type>
+		<value>5cp</value>
 		<weight>0.05</weight>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook, page 150</text>
+	</item>
+	<item>
+		<name>Arrows (20)</name>
+		<type>A</type>
+		<value>1gp</value>
+		<weight>1</weight>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text />
 		<text>Source: Player's Handbook, page 150</text>
@@ -1169,6 +1184,7 @@
   <item>
 		<name>Assassin's Blood (Ingested)</name>
 		<type>G</type>
+		<value>150gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</text>
 		<text />
@@ -1212,6 +1228,7 @@
   <item>
 		<name>Backpack</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>5</weight>
 		<text>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</text>
 		<text />
@@ -1340,6 +1357,7 @@
   <item>
 		<name>Bagpipes</name>
 		<type>G</type>
+		<value>30gp</value>
 		<weight>6</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -1352,6 +1370,7 @@
 	<item>
 		<name>Ball Bearings</name>
 		<type>G</type>
+		<value>0.1cp</value>
 		<weight>0.002</weight>
 		<text>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.</text>
 		<text />
@@ -1367,8 +1386,24 @@
     <text>Source: Princes of the Apocalypse, page 222</text>
   </item>
   <item>
+        <name>Banner of the Krig Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>Crafted from a thick, red fabric, this banner measures 5 feet high and 3 feet wide. The krig (war) rune is displayed on the fabric with round, metal plates sewn into it. It can be attached to a 10-foot pole to serve as a standard. Furling or unfurling the banner requires an action. The banner has the following properties.</text>
+        <text>  Mark of Courage: As a bonus action, you can touch the unfurled banner and cause it to emanate courage. You and your allies are immune to the frightened condition while within 20 feet of it. This beneﬁt lasts for 10 minutes or until the banner is furled. Once you use this property, you can’t use it again until you ﬁnish a short or long rest.</text>
+        <text>	Sentinel Standard: You can see invisible creatures while they are within 20 feet of the unfurled banner and within your line of sight.</text>
+        <text>  Standard's Shield: As a bonus action, you can touch the unfurled banner and invoke this power. Any ranged attack roll that targets you or an ally of yours has disadvantage if the target is within 20 feet of the unfurled banner. This beneﬁt lasts for 1 minute or until the banner is furled. Once you use this property, you can’t use it again until you ﬁnish a short or long rest.</text>
+        <text>  Gift of Battle: You can transfer the banner’s magic to a place by tracing the krig rune on the ground with your ﬁnger The point where you trace it becomes the center of a spherical area of magic that has a 500-foot radius and that is ﬁxed to the place. The transfer takes 8 hours of work that requires the banner to be within 5 feet of you and during which you choose creatures, creature types, or both that will beneﬁt from the magic. At the end, the banner is destroyed, and the area gains the following property:</text>
+        <text>While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the frightened condition and gain a +1 bonus toattack rolls and AC.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 233</text>
+    </item>
+    <item>
 		<name>Barrel</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>70</weight>
 		<text>A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.</text>
 		<text />
@@ -1377,6 +1412,7 @@
 	<item>
 		<name>Basic Poison (vial)</name>
 		<type>G</type>
+		<value>100gp</value>
 		<text>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</text>
 		<text />
 		<text>Source: Player's Handbook, page 153</text>
@@ -1384,6 +1420,7 @@
 	<item>
 		<name>Basket</name>
 		<type>G</type>
+		<value>4sp</value>
 		<weight>2</weight>
 		<text>A basket holds 2 cubic feet or 40 pounds of gear.</text>
 		<text />
@@ -1392,6 +1429,7 @@
 	<item>
 		<name>Battleaxe</name>
 		<type>M</type>
+		<value>10gp</value>
 		<weight>4</weight>
 		<dmg1>1d8</dmg1>
 		<dmg2>1d10</dmg2>
@@ -1483,12 +1521,14 @@
   <item>
 		<name>Bedroll</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>7</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Bell</name>
 		<type>G</type>
+		<value>1gp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
@@ -1706,18 +1746,31 @@
   <item>
 		<name>Blanket</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Block and Tackle</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>5</weight>
 		<text>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
 	<item>
+        <name>Blod Stone</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>This diamond contains the blood of a creature—b1ood that appears in the form of the blod (blood) rune. While the item is on your person, you can use your action to divine the location of the creature nearest to you that is related to the blood in the item and that isn’t undead. You sense the distance and direction of the creature relative to your location. The creature is either the one whose blood is in the item or a blood relative.</text>
+        <text>This item is made from a large diamond worth at least 5,000 gp. When the blood of a creature is poured onto it during the creation process, the blood seeps into the heart of the gem. If the gem is destroyed, the blood evaporates and is gone forever. A vengeful being might use a blod stone to hunt down an entire bloodline. Such stones are sometimes given as gifts to siblings or handed down from parent to child.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 233</text>
+    </item>
+    <item>
     <name>Blood Spear</name>
     <type>M</type>
     <dmg1>1d6</dmg1>
@@ -1736,6 +1789,7 @@
   <item>
 		<name>Blowgun</name>
 		<type>R</type>
+		<value>10gp</value>
 		<weight>1</weight>
 		<dmg1>1</dmg1>
 		<dmgType>P</dmgType>
@@ -1831,7 +1885,17 @@
   <item>
 		<name>Blowgun Needles</name>
 		<type>A</type>
+		<value>2cp</value>
 		<weight>0.02</weight>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook, page 150</text>
+	</item>
+	<item>
+		<name>Blowgun Needles (50)</name>
+		<type>A</type>
+		<value>1gp</value>
+		<weight>1</weight>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text />
 		<text>Source: Player's Handbook, page 150</text>
@@ -1930,6 +1994,7 @@
   <item>
 		<name>Book</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>5</weight>
 		<text>A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).</text>
 		<text />
@@ -2107,6 +2172,7 @@
   <item>
 		<name>Breastplate</name>
 		<type>MA</type>
+		<value>400gp</value>
 		<weight>20</weight>
 		<ac>14</ac>
 		<text>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</text>
@@ -2259,6 +2325,7 @@
   <item>
 		<name>Brewer's Supplies</name>
 		<type>G</type>
+		<value>20gp</value>
 		<weight>9</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -2301,6 +2368,7 @@
   <item>
 		<name>Bucket</name>
 		<type>G</type>
+		<value>5cp</value>
 		<weight>2</weight>
 		<text>A bucket holds 3 gallons of liquid or 1/2 cubic foot of solids.</text>
 		<text />
@@ -2309,6 +2377,7 @@
 	<item>
 		<name>Bullseye Lantern</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>2</weight>
 		<text>A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text>
 		<text />
@@ -2317,6 +2386,7 @@
 	<item>
 		<name>Burglar's Pack</name>
 		<type>G</type>
+		<value>16gp</value>
 		<weight>44.5</weight>
 		<text>Includes:</text>
 		<text />
@@ -2353,6 +2423,7 @@
 	<item>
 		<name>Burnt Othur Fumes (Inhaled)</name>
 		<type>G</type>
+		<value>500gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.</text>
 		<text />
@@ -2363,6 +2434,7 @@
 	<item>
 		<name>Calligrapher's Supplies</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -2371,7 +2443,17 @@
 	<item>
 		<name>Caltrops</name>
 		<type>G</type>
+		<value>5cp</value>
 		<weight>0.1</weight>
+		<text>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</text>
+		<text />
+		<text>Source: Player's Handbook, page 151</text>
+	</item>
+	<item>
+		<name>Caltrops (20)</name>
+		<type>G</type>
+		<value>1gp</value>
+		<weight>2</weight>
 		<text>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
@@ -2379,6 +2461,7 @@
 	<item>
 		<name>Candle</name>
 		<type>G</type>
+		<value>1cp</value>
 		<text>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
@@ -2428,6 +2511,7 @@
   <item>
 		<name>Carpenter's Tools</name>
 		<type>G</type>
+		<value>8gp</value>
 		<weight>6</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -2472,6 +2556,7 @@
   <item>
 		<name>Carrion Crawler Mucus (Contact)</name>
 		<type>G</type>
+		<value>200gp</value>
 		<weight>0</weight>
 		<text>This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</text>
 		<text />
@@ -2480,6 +2565,7 @@
 	<item>
 		<name>Cartographer's Tools</name>
 		<type>G</type>
+		<value>15gp</value>
 		<weight>6</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -2498,6 +2584,7 @@
   <item>
 		<name>Chain (10 feet)</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>10</weight>
 		<text>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</text>
 		<text />
@@ -2506,6 +2593,7 @@
 	<item>
 		<name>Chain Mail</name>
 		<type>HA</type>
+		<value>75gp</value>
 		<weight>55</weight>
 		<ac>16</ac>
 		<strength>13</strength>
@@ -2686,6 +2774,7 @@
   <item>
 		<name>Chain Shirt</name>
 		<type>MA</type>
+		<value>50gp</value>
 		<weight>20</weight>
 		<ac>13</ac>
 		<text>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</text>
@@ -2838,11 +2927,13 @@
   <item>
 		<name>Chalk (1 piece)</name>
 		<type>G</type>
+		<value>1cp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Chest</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>25</weight>
 		<text>A chest holds 12 cubic feet or 300 pounds of gear.</text>
 		<text />
@@ -2868,6 +2959,20 @@
     <roll>1d20+5</roll>
   </item>
   <item>
+        <name>Claw of the Wyrm Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>This dragon's claw has been covered with a coat of molten silver, upon which has been inscribed the wyrm (dragon) rune. The claw has the following properties.</text>
+        <text>Wyrmslayer: As an action, you can point the claw at a dragon within 30 feet of you. The dragon must then succeed on a DC 15 Constitution saving throw or gain vulnerability to all damage types until the end of your next turn. This property can be used three times. The claw regains all expended uses at the next dawn.</text>
+        <text>Wyrm Shield: While the claw is displayed on your person, you have resistance to the damage caused by any dragon’s breath weapon.</text>
+        <text>Wyrm Ward: You can transfer the c1aw’s magic to a place by tracing the wyrm rune on the ground with your finger. The point where you trace it becomes the center of a spherical area of magic that has a 100-foot radius and that is ﬁxed to the place. The transfer takes 8 hours of work that requires the claw to be within 5 feet of you. At the end, the claw is destroyed, and the area gains the following property:</text>
+        <text>While in the 100-foot-radius sphere, any dragon has disadvantage on saving throws and can have a ﬂying speed no higher than 10 feet.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 233</text>
+    </item>
+    <item>
     <name>Claws of the Umber Hulk</name>
     <type>W</type>
     <text>These heavy gauntlets of brown iron are forged in the shape an umber hulk's claws, and they fit the wearer's hands and forearms all the way up to the elbow. While wearing both claws, you gain a burrowing speed of 20 feet, and you can tunnel through solid rock at a rate of 1 foot per round.</text>
@@ -2879,6 +2984,7 @@
   <item>
 		<name>Climber's Kit</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>12</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -2963,6 +3069,7 @@
   <item>
 		<name>Club</name>
 		<type>M</type>
+		<value>1sp</value>
 		<weight>2</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>B</dmgType>
@@ -3037,6 +3144,7 @@
   <item>
 		<name>Cobbler's Tools</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -3045,20 +3153,34 @@
 	<item>
 		<name>Common Clothes</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Component Pouch</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>2</weight>
 		<text>A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description).</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
 	<item>
+        <name>Conch of Teleportation</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Very Rare</text>
+        <text />
+        <text>This item is an ordinary, albeit rather large, conch shell that has been inscribed with the uvar rune. The conch measures 2 1/2 feet long and weighs 20 pounds.</text>
+        <text>As an action, you can cast the teleport spell by blowing into the shell. The destination is ﬁxed, and there is no chance of either a mishap or the spell being off target. Anyone teleported by the conch appears in a speciﬁc location designated by the item’s creator at the time the uvar rune is inscribed on the conch. It doesn’t allow teleportation to any other destination. Once its spell is cast, the conch can't be used again until the next dawn.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 234</text>
+    </item>
+    <item>
 		<name>Cook's Utensils</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>8</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -3067,6 +3189,7 @@
 	<item>
 		<name>Copper (cp)</name>
 		<type>$</type>
+		<value>1cp</value>
 		<weight>0.02</weight>
 		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
 		<text />
@@ -3099,12 +3222,14 @@
   <item>
 		<name>Costume Clothes</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Crossbow Bolt Case</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>1</weight>
 		<text>This wooden case can hold up to twenty crossbow bolts.</text>
 		<text />
@@ -3124,7 +3249,17 @@
   <item>
 		<name>Crossbow Bolts</name>
 		<type>A</type>
+		<value>5cp</value>
 		<weight>0.075</weight>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook, page 150</text>
+	</item>
+	<item>
+		<name>Crossbow Bolts (20)</name>
+		<type>A</type>
+		<value>1gp</value>
+		<weight>1.5</weight>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text />
 		<text>Source: Player's Handbook, page 150</text>
@@ -3165,6 +3300,7 @@
   <item>
 		<name>Crowbar</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>5</weight>
 		<text>Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.</text>
 		<text />
@@ -3173,6 +3309,7 @@
 	<item>
 		<name>Crystal</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>1</weight>
 		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
 		<text />
@@ -3281,6 +3418,7 @@
   <item>
 		<name>Dagger</name>
 		<type>M</type>
+		<value>2gp</value>
 		<weight>1</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>P</dmgType>
@@ -3507,6 +3645,7 @@
   <item>
 		<name>Dart</name>
 		<type>R</type>
+		<value>5cp</value>
 		<weight>0.25</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>P</dmgType>
@@ -3914,6 +4053,7 @@
   <item>
 		<name>Dice Set</name>
 		<type>G</type>
+		<value>1sp</value>
 		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
 		<text />
 		<text>Source: Player's Handbook, page 154</text>
@@ -3930,6 +4070,7 @@
   <item>
 		<name>Diplomat's Pack</name>
 		<type>G</type>
+		<value>39gp</value>
 		<weight>36</weight>
 		<text>Includes:</text>
 		<text />
@@ -3960,6 +4101,7 @@
 	<item>
 		<name>Disguise Kit</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>3</weight>
 		<text>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</text>
 		<text />
@@ -4078,6 +4220,7 @@
   <item>
 		<name>Dragonchess Set</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>0.5</weight>
 		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
 		<text />
@@ -4121,6 +4264,7 @@
   <item>
 		<name>Drow Poison (Injury)</name>
 		<type>G</type>
+		<value>200gp</value>
 		<weight>0</weight>
 		<text>This poison is typically made only by the draw, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
 		<text />
@@ -4160,6 +4304,7 @@
   <item>
 		<name>Drum</name>
 		<type>G</type>
+		<value>6gp</value>
 		<weight>3</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -4172,6 +4317,7 @@
 	<item>
 		<name>Dulcimer</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>10</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -4184,6 +4330,7 @@
 	<item>
 		<name>Dungeoneer's Pack</name>
 		<type>G</type>
+		<value>12gp</value>
 		<weight>61.5</weight>
 		<text>Includes:</text>
 		<text />
@@ -4305,6 +4452,7 @@
   <item>
 		<name>Electrum (ep)</name>
 		<type>$</type>
+		<value>1ep</value>
 		<weight>0.02</weight>
 		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
 		<text />
@@ -4372,6 +4520,7 @@
   <item>
 		<name>Entertainer's Pack</name>
 		<type>G</type>
+		<value>40gp</value>
 		<weight>38</weight>
 		<text>Includes:</text>
 		<text />
@@ -4394,6 +4543,7 @@
 	<item>
 		<name>Essence of Ether (Inhaled)</name>
 		<type>G</type>
+		<value>300gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</text>
 		<text />
@@ -4412,6 +4562,7 @@
   <item>
 		<name>Explorer's Pack</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>59</weight>
 		<text>Includes:</text>
 		<text />
@@ -4616,12 +4767,14 @@
   <item>
 		<name>Fine Clothes</name>
 		<type>G</type>
+		<value>15gp</value>
 		<weight>6</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Fishing Tackle</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>4</weight>
 		<text>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</text>
 		<text />
@@ -4630,6 +4783,7 @@
 	<item>
 		<name>Flail</name>
 		<type>M</type>
+		<value>10gp</value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
@@ -4776,6 +4930,7 @@
   <item>
 		<name>Flask</name>
 		<type>G</type>
+		<value>1cp</value>
 		<weight>1</weight>
 		<text>A flask holds 1 pint of liquid.</text>
 		<text />
@@ -4784,6 +4939,7 @@
 	<item>
 		<name>Flute</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>1</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -4809,6 +4965,7 @@
   <item>
 		<name>Forgery Kit</name>
 		<type>G</type>
+		<value>15gp</value>
 		<weight>5</weight>
 		<text>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</text>
 		<text />
@@ -4922,6 +5079,20 @@
     <text>Source: Dungeon Master's Guide, page 171</text>
   </item>
   <item>
+        <name>Gavel of the Venn Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>This wooden gavel is small by giant reckoning but nearly the size of a warhammcr in human hands. The venn (friend) rune is inscribed in mithral in the base of the haft. Among giants, this item is used as part of rituals to resolve disputes. The gavel has the following properties.</text>
+        <text>Arbiters Shield: At the start of every combat, attack rolls against you have disadvantage before the start of your ﬁrst turn, provided that the gavel is on your person.</text>
+        <text>Bond of Amity: As an action, you can use the gavel to strike a point on a hard surface. The ﬁrst time in the next minute that a creature within 60 feet of that point deals damage to another creature with an attack that hits, the attacker takes psychic damage equal to half the damage it dealt to the target. Once you use this property, you can't use it again until you ﬁnish a long rest.</text>
+        <text>Gift of Truth: You can transfer the gavel’s magic to a place by tracing the venn rune on the ground with your ﬁnger. The point where you trace it becomes the center of a spherical area of magic that has a 30-foot radius and that is ﬁxed to the place. The transfer takes 8 hours of work that requires the gavel to be within 5 feet of you. At the end, the gavel is destroyed, and the area gains the following property:</text>
+        <text>Whenever a creature utters a lie while within the 30-foot-radius sphere, that creature takes 5 psychic damage and flinches visibly.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 234</text>
+    </item>
+    <item>
     <name>Gem of Brightness</name>
     <type>W</type>
     <weight>1</weight>
@@ -5107,6 +5278,7 @@
   <item>
 		<name>Glaive</name>
 		<type>M</type>
+		<value>20gp</value>
 		<weight>6</weight>
 		<dmg1>1d10</dmg1>
 		<dmgType>S</dmgType>
@@ -5212,6 +5384,7 @@
   <item>
 		<name>Glass Bottle</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>2</weight>
 		<text>A bottle holds 1 1/2 pints of liquid.</text>
 		<text />
@@ -5220,6 +5393,7 @@
 	<item>
 		<name>Glassblower's Tools</name>
 		<type>G</type>
+		<value>30gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -5265,6 +5439,7 @@
   <item>
 		<name>Gold (gp)</name>
 		<type>$</type>
+		<value>1gp</value>
 		<weight>0.02</weight>
 		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
 		<text />
@@ -5297,12 +5472,14 @@
   <item>
 		<name>Grappling Hook</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Greataxe</name>
 		<type>M</type>
+		<value>30gp</value>
 		<weight>7</weight>
 		<dmg1>1d12</dmg1>
 		<dmgType>S</dmgType>
@@ -5387,6 +5564,7 @@
   <item>
 		<name>Greatclub</name>
 		<type>M</type>
+		<value>2sp</value>
 		<weight>10</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>B</dmgType>
@@ -5461,6 +5639,7 @@
   <item>
 		<name>Greatsword</name>
 		<type>M</type>
+		<value>50gp</value>
 		<weight>6</weight>
 		<dmg1>2d6</dmg1>
 		<dmgType>S</dmgType>
@@ -5678,8 +5857,27 @@
     <roll>1d6+4</roll>
   </item>
   <item>
+        <name>Gurt's Greataxe</name>
+        <type>M</type>
+        <weight>14</weight>
+        <dmg1>3d12</dmg1>
+        <dmgType>S</dmgType>
+        <property>H,2H</property>
+        <text>This item requires attunement</text>
+        <text>Rarity: Legendary</text>
+        <text>In the Year of the Icy Axe (123 DR), the frost giant lord Gurt fell to Uthgar Gardolfsson—leader of the folk who would become the Uthgardt barbarians—in a battle that marked the ascendance of humankind over the giants in the Dessarin Valley. Gurt’s greataxe was buried in Morgur’s Mound until it was unearthed and brought back to Waterdeep. After laying in the city’s vaults for decades, the axe was given to Harshnag, a frost giant adventurer, in recognition of his service to Waterdeep. Uthgardt barbarians recognize the weapon on sight and attack any giant that wields it.</text>
+        <text>You gain a +1 bonus to attack and damage rolls made with this magic weapon. It is sized for a giant, weighs 325 pounds, and deals 3dl2 slashing damage on a hit, plus an extra 2d12 slashing damage if the target is human.</text>
+        <text>The axe sheds light as a torch when the temperature around it drops below O degrees Fahrenheit. The light can't he shut off in these conditions.</text>
+        <text>As an action, you can cast a version of the heat metal spell (save DC 13) that deals cold damage instead of ﬁre damage. Once this power is used, it can't be used again until the next dawn.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 234</text>
+        <modifier category="bonus">melee attacks +1</modifier>
+        <modifier category="bonus">melee damage +1</modifier>
+    </item>
+    <item>
 		<name>Halberd</name>
 		<type>M</type>
+		<value>20gp</value>
 		<weight>6</weight>
 		<dmg1>1d10</dmg1>
 		<dmgType>S</dmgType>
@@ -5772,6 +5970,7 @@
   <item>
 		<name>Half Plate</name>
 		<type>MA</type>
+		<value>750gp</value>
 		<weight>40</weight>
 		<ac>15</ac>
 		<stealth>YES</stealth>
@@ -5938,6 +6137,7 @@
   <item>
 		<name>Hammer</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>3</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -5968,6 +6168,7 @@
   <item>
 		<name>Hand Crossbow</name>
 		<type>R</type>
+		<value>75gp</value>
 		<weight>3</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>P</dmgType>
@@ -6114,6 +6315,7 @@
   <item>
 		<name>Handaxe</name>
 		<type>M</type>
+		<value>5gp</value>
 		<weight>2</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>S</dmgType>
@@ -6261,6 +6463,7 @@
   <item>
 		<name>Healer's Kit</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>3</weight>
 		<text>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</text>
 		<text />
@@ -6269,6 +6472,7 @@
 	<item>
 		<name>Heavy Crossbow</name>
 		<type>R</type>
+		<value>50gp</value>
 		<weight>18</weight>
 		<dmg1>1d10</dmg1>
 		<dmgType>P</dmgType>
@@ -6441,6 +6645,7 @@
   <item>
 		<name>Hempen Rope (50 feet)</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>10</weight>
 		<text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text>
 		<text />
@@ -6449,6 +6654,7 @@
 	<item>
 		<name>Herbalism Kit</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>3</weight>
 		<text>This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.</text>
 		<text />
@@ -6469,6 +6675,7 @@
   <item>
 		<name>Hide Armor</name>
 		<type>MA</type>
+		<value>10gp</value>
 		<weight>12</weight>
 		<ac>12</ac>
 		<text>This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.</text>
@@ -6723,6 +6930,7 @@
   <item>
 		<name>Holy Symbol (Amulet)</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>1</weight>
 		<text>A holy symbol is a representation of a god or pantheon</text>
 		<text />
@@ -6733,6 +6941,7 @@
 	<item>
 		<name>Holy Symbol (Emblem)</name>
 		<type>G</type>
+		<value>5gp</value>
 		<text>A holy symbol is a representation of a god or pantheon</text>
 		<text />
 		<text>A cleric or paladin can use a holy symbol as a spellcasting focus, using it in place of any material components which do not list a cost. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.</text>
@@ -6742,6 +6951,7 @@
 	<item>
 		<name>Holy Symbol (Reliquary)</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>2</weight>
 		<text>A holy symbol is a representation of a god or pantheon</text>
 		<text />
@@ -6770,6 +6980,7 @@
   <item>
 		<name>Holy Water (flask)</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>1</weight>
 		<text>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.\n\tA cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</text>
 		<text />
@@ -6778,6 +6989,7 @@
 	<item>
 		<name>Hooded Lantern</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>2</weight>
 		<text>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</text>
 		<text />
@@ -6786,6 +6998,7 @@
 	<item>
 		<name>Horn</name>
 		<type>G</type>
+		<value>3gp</value>
 		<weight>2</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -6873,12 +7086,14 @@
   <item>
 		<name>Hourglass</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Hunting Trap</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>25</weight>
 		<text>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</text>
 		<text />
@@ -6913,12 +7128,30 @@
     <text>Source: Dungeon Master's Guide, page 175</text>
   </item>
   <item>
+        <name>Ingot of the Skold Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Very Rare</text>
+        <text />
+        <text>This appears to be a simple ingot of iron ore, about a foot long and a few inches across. Inspection of its surface reveals the faint, silvery outline ofthe skold (shield) rune. The ingot has the following properties, which work only while it's on your person.</text>
+        <text>Runic Shield: You have a +1 bonus to AC.</text>
+        <text>Shield Bond: As a bonus action, choose a creature that you can see within 30 feet of you, other than yourself. Until the end of your next turn, any damage the target takes is reduced to 1, but you take half the damage prevented in this way. The damage you take can't be reduced in any way. Once you use this property, you can't use it again until you ﬁnish a short or long rest.</text>
+        <text>Shield Ward: You can transfer the ingot's magic to a nonmagical item-a shield or a two-handed melee weapon-by tracing the skold rune there with your ﬁnger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the ingot is destroyed, and the rune appears in silver on the chosen item, which gains a beneﬁt based on its form:</text>
+        <text>Shield: The shield is now a rare magic item that requires attunement. Its magic gives you a +1 bonus to AC, and the ﬁrst time after each of your long rests that damage reduces you to O hit points, you are instead reduced to 1 hit point. You must be wielding the shield to gain these beneﬁts.</text>
+        <text>Weapon: The weapon is now an uncommon magic weapon. It grants you a +1 bonus to AC while you're holding it.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 234</text>
+        <modifier category="bonus">ac +1</modifier>
+    </item>
+    <item>
 		<name>Ink (1 ounce bottle)</name>
+		<value>10gp</value>
 		<type>G</type>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Ink Pen</name>
+		<value>2cp</value>
 		<type>G</type>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -7316,6 +7549,7 @@
   <item>
 		<name>Iron Pot</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>10</weight>
 		<text>An iron pot holds 1 gallon of liquid.</text>
 		<text />
@@ -7324,7 +7558,15 @@
 	<item>
 		<name>Iron Spikes</name>
 		<type>G</type>
+		<value>1sp</value>
 		<weight>0.5</weight>
+		<text>Source: Player's Handbook, page 150</text>
+	</item>
+	<item>
+		<name>Iron Spikes (10)</name>
+		<type>G</type>
+		<value>1gp</value>
+		<weight>5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
@@ -7356,6 +7598,7 @@
   <item>
 		<name>Javelin</name>
 		<type>M</type>
+		<value>2sp</value>
 		<weight>2</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>P</dmgType>
@@ -7464,6 +7707,7 @@
   <item>
 		<name>Jeweler's Tools</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>2</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -7472,6 +7716,7 @@
 	<item>
 		<name>Jug</name>
 		<type>G</type>
+		<value>2cp</value>
 		<weight>4</weight>
 		<text>A jug holds 1 gallon of liquid.</text>
 		<text />
@@ -7488,14 +7733,39 @@
     <roll>2d8+2</roll>
   </item>
   <item>
+        <name>Korolnor Scepter</name>
+        <type>M</type>
+        <weight>2</weight>
+        <dmg1>1d4</dmg1>
+        <dmgType>B</dmgType>
+        <property>L</property>
+        <text>This item requires attunement</text>
+        <text>Rarity: Legendary</text>
+        <text />
+        <text>The Korolnor Scepter is one of ten Ruling Scepters of Shanatar, forged by the dwarven gods and given to the ruling houses of the ancient dwarven empire. The Korolnor Scepter’s location was unknown for the longest time until a storm giant queen, Neri, found it in a barnacle-covered shipwreck at the bottom of the Trackless Sea. The Ruling Scepters are all roughly the same size and shape, but their materials and properties vary.</text>
+        <text>The Korolnor Scepter is a tapered mithral rod as thick and long as a dwarf’s forearm, with a small platinum knob at the bottom and a rounded disk adorned with a ring of seven tiny blue gems at the top.</text>
+        <text>You gain a +3 bonus to attack and damage rolls made with this scepter, which can be wielded as a magic club.</text>
+        <text>You can use the properties of the Wyrmskull Throne, as well as the properties of the scepter itself. The scepter has 10 charges, and it regains 1d6+4 expanded charges at dawn. Its properties are as follows.</text>
+        <text>If you are underground or underwater, you can use an action to expend 1 charge to determine the distance to the surface.</text>
+        <text>As an action. you can expend 2 charges to cast the sending spell from the scepter.</text>
+        <text>As an action. you can expend 3 charges to cast the teleport spell from the scepter. If the destination is within 60 feet of the Wyrmskull Throne, there is no chance of a teleport error or mishap occurring.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 234</text>
+        <roll>1d6+4</roll>
+        <modifier category="bonus">melee attacks +3</modifier>
+        <modifier category="bonus">melee damage +3</modifier>
+    </item>
+    <item>
 		<name>Ladder (10-foot)</name>
 		<type>G</type>
+		<value>1sp</value>
 		<weight>25</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Lamp</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>1</weight>
 		<text>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</text>
 		<text />
@@ -7504,6 +7774,7 @@
 	<item>
 		<name>Lance</name>
 		<type>M</type>
+		<value>10gp</value>
 		<weight>6</weight>
 		<dmg1>1d12</dmg1>
 		<dmgType>P</dmgType>
@@ -7589,6 +7860,7 @@
   <item>
 		<name>Leather Armor</name>
 		<type>LA</type>
+		<value>10gp</value>
 		<weight>10</weight>
 		<ac>11</ac>
 		<text>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</text>
@@ -7741,6 +8013,7 @@
   <item>
 		<name>Leatherworker's Tools</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -7749,6 +8022,7 @@
 	<item>
 		<name>Light Crossbow</name>
 		<type>R</type>
+		<value>25gp</value>
 		<weight>5</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
@@ -7864,6 +8138,7 @@
   <item>
 		<name>Light Hammer</name>
 		<type>M</type>
+		<value>2gp</value>
 		<weight>2</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>B</dmgType>
@@ -7963,6 +8238,7 @@
   <item>
 		<name>Lock</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>1</weight>
 		<text>A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.</text>
 		<text />
@@ -7971,6 +8247,7 @@
 	<item>
 		<name>Longbow</name>
 		<type>R</type>
+		<value>50gp</value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
@@ -8086,6 +8363,7 @@
   <item>
 		<name>Longsword</name>
 		<type>M</type>
+		<value>15gp</value>
 		<weight>3</weight>
 		<dmg1>1d8</dmg1>
 		<dmg2>1d10</dmg2>
@@ -8369,6 +8647,7 @@
   <item>
 		<name>Lute</name>
 		<type>G</type>
+		<value>35gp</value>
 		<weight>2</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -8381,6 +8660,7 @@
 	<item>
 		<name>Lyre</name>
 		<type>G</type>
+		<value>30gp</value>
 		<weight>2</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -8393,6 +8673,7 @@
 	<item>
 		<name>Mace</name>
 		<type>M</type>
+		<value>5gp</value>
 		<weight>4</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>B</dmgType>
@@ -8494,6 +8775,7 @@
   <item>
 		<name>Magnifying Glass</name>
 		<type>G</type>
+		<value>100gp</value>
 		<text>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</text>
 		<text />
 		<text>Source: Player's Handbook, page 152</text>
@@ -8501,6 +8783,7 @@
 	<item>
 		<name>Malice (Inhaled)</name>
 		<type>G</type>
+		<value>250gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.</text>
 		<text />
@@ -8509,6 +8792,7 @@
 	<item>
 		<name>Manacles</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>6</weight>
 		<text>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</text>
 		<text />
@@ -8594,6 +8878,7 @@
   <item>
 		<name>Map or Scroll Case</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>1</weight>
 		<text>This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.</text>
 		<text />
@@ -8752,6 +9037,7 @@
   <item>
 		<name>Mason's Tools</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>8</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -8760,6 +9046,7 @@
 	<item>
 		<name>Maul</name>
 		<type>M</type>
+		<value>10gp</value>
 		<weight>10</weight>
 		<dmg1>2d6</dmg1>
 		<dmgType>B</dmgType>
@@ -8857,6 +9144,7 @@
   <item>
 		<name>Merchant's Scale</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>3</weight>
 		<text>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</text>
 		<text />
@@ -8865,6 +9153,7 @@
 	<item>
 		<name>Mess Kit</name>
 		<type>G</type>
+		<value>2sp</value>
 		<weight>1</weight>
 		<text>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</text>
 		<text />
@@ -8873,6 +9162,7 @@
 	<item>
 		<name>Midnight Tears (Ingested)</name>
 		<type>G</type>
+		<value>1500gp</value>
 		<weight>0</weight>
 		<text>A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
@@ -8882,6 +9172,7 @@
 	<item>
 		<name>Miner's Pick</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -8992,7 +9283,8 @@
   <item>
         <name>Monster Hunter's Pack</name>
         <type>G</type>
-        <weight>48.5</weight>
+        <value>33gp</value>
+		<weight>48.5</weight>
         <text>Includes:</text>
         <text>   • a chest</text>
         <text>   • a crowbar</text>
@@ -9056,6 +9348,7 @@
   <item>
 		<name>Morningstar</name>
 		<type>M</type>
+		<value>15gp</value>
 		<weight>4</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
@@ -9113,8 +9406,24 @@
     <text>Source: Dungeon Master's Guide, page 213</text>
   </item>
   <item>
+        <name>Navigation Orb</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Very Rare</text>
+        <text />
+        <text>A navigation orb is a hollow, 7-foot-diameter sphere of thin, polished mithral with a large skye (cloud) rune embossed on its outer surface. The orb levitates 10 feet above the ground and is keyed to a particular cloud castle, allowing you to control that castle's altitude and movement while the orb is inside the castle. If the orb is destroyed or removed from its castle, the castle's altitude and location remain ﬁxed until the orb is returned or replaced.</text>
+        <text>As an action, you can cause one of the following effects to occur if you are touching the orb:</text>
+        <text>The castle moves at a speed of 1 mph in a straight line, in a direction of your choice, until the castle stops or is made to stop, or until another action is used to change its direction. If this movement brings the castle into contact with the ground, the castle lands gently.</text>
+        <text>The castle, if it is moving, comes to a gradual stop.</text>
+        <text>The castle makes a slow, 90-degree turn clockwise or counterclockwise (turning a northerly view into a westerly view, for example). The castle can turn while it is moving in a straight line.</text>
+        <text>Any creature touching the orb knows the altitude of the base of the castle above the ground or water below it.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 235</text>
+    </item>
+    <item>
 		<name>Navigator's Tools</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>2</weight>
 		<text>This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</text>
 		<text />
@@ -9165,6 +9474,7 @@
   <item>
 		<name>Net</name>
 		<type>R</type>
+		<value>1gp</value>
 		<weight>3</weight>
 		<property>S,T</property>
 		<range>5/15</range>
@@ -9392,6 +9702,7 @@
   <item>
 		<name>Oil (flask)</name>
 		<type>G</type>
+		<value>1sp</value>
 		<weight>1</weight>
 		<text>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</text>
 		<text />
@@ -9428,14 +9739,32 @@
   <item>
 		<name>Oil of Taggit (Contact)</name>
 		<type>G</type>
+		<value>400gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.</text>
 		<text />
 		<text>Source: Dungeon Master's Guide, page 258</text>
 	</item>
 	<item>
+        <name>Opal of the Ild Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>This triangular ﬁre opal measures about three inches on each side and is half an inch thick. The ild (ﬁre) rune shimmers within its core, causing it to be slightly warm to the touch. The opal has the following properties, which work only while it’s on your person.</text>
+        <text>Ignite: As an action, you can ignite an object within 10 feet of you. The object must be ﬂammable, and the ﬁre starts in a circle no larger than 1 foot in diameter.</text>
+        <text>Fires Friend: You have resistance to cold damage.</text>
+        <text>Fire Tamer: As an action, you can extinguish any open ﬂame within 10 feet of you. You choose how much fire to extinguish in that radius.</text>
+        <text>Gift of Flame: You can transfer the opal’s magic to a nonmagical item—a weapon or a suit of armor—by tracing the ild rune there with your ﬁnger. The transfertakes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the opal is destroyed, and the rune appears in red on the chosen item, which gains a beneﬁt based on its form:</text>
+        <text>Weapon: The weapon is now an uncommon magic weapon. It deals an extra 1d6 ﬁre damage to any target it hits.</text>
+        <text>Armor: The armor is now a rare magic item that requires attunement. You have resistance to cold damage while wearing the armor.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 235</text>
+    </item>    
+    <item>
 		<name>Orb</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>3</weight>
 		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
 		<text />
@@ -9464,6 +9793,23 @@
     <text>Source: Dungeon Master's Guide, page 225</text>
   </item>
   <item>
+        <name>Orb of the Stein Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>This orb of granite is about the size of an adult human’s ﬁst. The stein (stone) rune appears on it in the form ofcrystalline veins that run across the surface. The orb has the following properties, which work only while it's on your person.</text>
+        <text>Indomitable Stand: As an action, you can channel the orb’s magic to hold your ground. For the next minute or until you move any distance, you have advantage on all checks and saving throws to resist effects that force you to move. In addition, any enemy that moves to a space within 10 feet of you must succeed on a DC 12 Strength saving throw or be unable to move any farther this turn.</text>
+        <text>Stone Soul: You can’t be petriﬁed.</text>
+        <text>Earthen Step: You can cast meld into stone as a bonus action. Once you use this property, you can’t use it again until you ﬁnish a short or long rest.</text>
+        <text>Gift of Stone: You can transfer the orb’s magic to a nonmagical item—a shield or a pair of boots—by tracing the stein rune there with your ﬁnger. The transfer takes8 hours of work that requires the two items to be within 5 feet of each other. At the end, the orb is destroyed, and the rune appears in silver on the chosen item, which gains a beneﬁt based on its form:</text>
+        <text>Shield. The shield is now a rare magic item that requires attunement. While you wield it, you have resis-
+tance to all damage dealt by ranged weapon attacks.</text>
+        <text>Boots. The pair of boots is now an uncommon magic item that requires attunement. While you wear the boots, you have advantage on Strength saving throws, and you can use your reaction to avoid being knocked prone.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 235</text>
+    </item>
+    <item>
     <name>Orcsplitter</name>
     <type>M</type>
     <weight>7</weight>
@@ -9492,6 +9838,7 @@
   <item>
 		<name>Padded Armor</name>
 		<type>LA</type>
+		<value>5gp</value>
 		<weight>8</weight>
 		<ac>11</ac>
 		<stealth>YES</stealth>
@@ -9658,6 +10005,7 @@
   <item>
 		<name>Painter's Supplies</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -9666,6 +10014,7 @@
 	<item>
 		<name>Pale Tincture (Ingested)</name>
 		<type>G</type>
+		<value>250gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can't be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</text>
 		<text />
@@ -9675,6 +10024,7 @@
 	<item>
 		<name>Pan Flute</name>
 		<type>G</type>
+		<value>12gp</value>
 		<weight>2</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -9687,11 +10037,13 @@
 	<item>
 		<name>Paper (one sheet)</name>
 		<type>G</type>
+		<value>2sp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Parchment (one sheet)</name>
 		<type>G</type>
+		<value>1sp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
@@ -9705,8 +10057,27 @@
     <text>Source: Dungeon Master's Guide, page 184</text>
   </item>
   <item>
+        <name>Pennant of the Vind Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Very Rare</text>
+        <text />
+        <text>This blue pennant is crafted from silk and is ﬁve feet long and whips about as if buffeted by a wind. The vind (wind) rune appears on its surface, looking almost like a cloud. The pennant has the following properties, which work only while it’s on your person.</text>
+        <text>Wind Step: As an action, you ﬂy up to 20 feet. If you don't land at the end of this ﬂight, you fall unless you have another means of staying aloft.</text>
+        <text>Comforting Wind: You can’t suffocate.</text>
+        <text>Winds Grasp: As a reaction when you fall, you can cause yourself to take no damage from the fall. Once you use this property, you can’t use it again until you ﬁnish a short or long rest.</text>
+        <text>Wind Walker: While you are attuned to this rune, you can cast levitate as a bonus action. Once you use this property, you can't use it again until you ﬁnish a short or long rest.</text>
+        <text>Gift of Wind: You can transfer the pennant's magic to a nonmagical item—a suit of armor, a pair of boots, or a cloak—by tracing the vind rune there with your ﬁnger. The transfer takes 8 hours of work that requires the two
+items to be within 5 feet of each other. At the end, the pennant is destroyed, and the rune appears in silver on the chosen item, which gains a beneﬁt based on its form:</text>
+        <text>Armor: The armor is now an uncommon magic item that requires attunement. You gain a bonus to speed of 5 feet while you wear the armor, and if it normally imposes disadvantage on Stealth checks, it no longer does so.</text>
+        <text>Boots/Cloak: The pair of boots or cloak is now a rare magic item that requires attunement. While wearing the item, you can convert up to 20 feet of your movement on each of your turns into ﬂight. If you don't land at the end of this ﬂight, you fall unless you have another means of staying aloft. You can also cast feather fall once from the item, and you regain the ability to do so when you ﬁnish a short or long rest.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 235</text>
+    </item>
+    <item>
 		<name>Perfume (vial)</name>
 		<type>G</type>
+		<value>5gp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
@@ -9750,6 +10121,7 @@
   <item>
 		<name>Pike</name>
 		<type>M</type>
+		<value>5gp</value>
 		<weight>18</weight>
 		<dmg1>1d10</dmg1>
 		<dmgType>P</dmgType>
@@ -9868,6 +10240,7 @@
   <item>
 		<name>Pitcher</name>
 		<type>G</type>
+		<value>2cp</value>
 		<weight>4</weight>
 		<text>A pitcher holds 1 gallon of liquid.</text>
 		<text />
@@ -9876,6 +10249,7 @@
 	<item>
 		<name>Piton</name>
 		<type>G</type>
+		<value>5cp</value>
 		<weight>0.25</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -9902,6 +10276,7 @@
   <item>
 		<name>Plate Armor</name>
 		<type>HA</type>
+		<value>1500gp</value>
 		<weight>65</weight>
 		<ac>18</ac>
 		<strength>15</strength>
@@ -10095,6 +10470,7 @@
   <item>
 		<name>Platinum (pp)</name>
 		<type>$</type>
+		<value>1pp</value>
 		<weight>0.02</weight>
 		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
 		<text />
@@ -10113,6 +10489,7 @@
 	<item>
 		<name>Playing Card Set</name>
 		<type>G</type>
+		<value>5sp</value>
 		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
 		<text />
 		<text>Source: Player's Handbook, page 154</text>
@@ -10120,6 +10497,7 @@
 	<item>
 		<name>Poisoner's Kit</name>
 		<type>G</type>
+		<value>50gp</value>
 		<weight>2</weight>
 		<text>A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</text>
 		<text />
@@ -10128,6 +10506,7 @@
 	<item>
 		<name>Pole (10-foot)</name>
 		<type>G</type>
+		<value>5cp</value>
 		<weight>7</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -10146,6 +10525,7 @@
   <item>
 		<name>Portable Ram</name>
 		<type>G</type>
+		<value>4gp</value>
 		<weight>35</weight>
 		<text>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</text>
 		<text />
@@ -10283,6 +10663,17 @@
     <text>Source: Dungeon Master's Guide, page 187</text>
   </item>
   <item>
+        <name>Potion of Giant Size</name>
+        <type>P</type>
+        <text>Rarity: Legendary</text>
+        <text />
+        <text>When you drink this potion, you become Huge for 24 hours if you are Medium or smaller, otherwise the potion does nothing. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.</text>
+        <text>Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal 3d8 slashing damage (instead of1d8), or 3d10 slashing damage (instead of 1d10) when used with two hands.</text>
+        <text>When the effect ends, any hit points you have above your hit point maximum become temporary hit points. This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 236</text>
+    </item>
+    <item>
     <name>Potion of Greater Healing</name>
     <type>P</type>
     <weight>0.5</weight>
@@ -10505,6 +10896,7 @@
   <item>
 		<name>Potter's Tools</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>3</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -10513,6 +10905,7 @@
 	<item>
 		<name>Pouch</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>1</weight>
 		<text>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch. A pouch can hold up to 1/5 cubic foot or 6 pounds of gear.</text>
 		<text />
@@ -10521,6 +10914,7 @@
 	<item>
 		<name>Priest's Pack</name>
 		<type>G</type>
+		<value>19gp</value>
 		<weight>24</weight>
 		<text>Includes:</text>
 		<text />
@@ -10549,6 +10943,7 @@
 	<item>
 		<name>Purple Worm Poison (Injury)</name>
 		<type>G</type>
+		<value>2000gp</value>
 		<weight>0</weight>
 		<text>This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
@@ -10621,6 +11016,7 @@
   <item>
 		<name>Quarterstaff</name>
 		<type>M</type>
+		<value>2sp</value>
 		<weight>4</weight>
 		<dmg1>1d6</dmg1>
 		<dmg2>1d8</dmg2>
@@ -10700,6 +11096,7 @@
   <item>
 		<name>Quiver</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>1</weight>
 		<text>A quiver can hold up to 20 arrows.</text>
 		<text />
@@ -10718,6 +11115,7 @@
   <item>
 		<name>Rapier</name>
 		<type>M</type>
+		<value>25gp</value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
@@ -10845,6 +11243,7 @@
   <item>
 		<name>Rations (1 day)</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>2</weight>
 		<text>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</text>
 		<text />
@@ -10890,6 +11289,7 @@
   <item>
 		<name>Ring Mail</name>
 		<type>HA</type>
+		<value>30gp</value>
 		<weight>40</weight>
 		<ac>14</ac>
 		<stealth>YES</stealth>
@@ -11475,6 +11875,17 @@
     <roll>1d3</roll>
   </item>
   <item>
+        <name>Robe of Serpants</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Uncommon</text>
+        <text />
+        <text>A robe of serpents is a stylish silk garment that is popular among wealthy nobles and retired assassins. The robe is emblazoned with 1d4 + 3 stylized serpents, all brightly colored.</text>
+        <text>As a bonus action on your turn, you can transform one of the robe’s serpents into a giant poisonous snake. The snake instantly falls from the robe, slithers into an unoccupied space next to you, and acts on your initiative count. The snake can tell friendly creatures from hostile ones and attacks the latter. The snake disappears in a harmless puff of smoke after 1 hour, when it drops to 0 hit points, or when you dismiss it (no action required). Once detached, a snake can’t return to the robe. When all of the robe’s snakes have detached, the robe becomes a nonmagical garment.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 236</text>
+    </item>
+    <item>
     <name>Robe of Stars</name>
     <type>W</type>
     <text>Rarity: Very Rare</text>
@@ -11540,12 +11951,14 @@
   <item>
 		<name>Robes</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Rod</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>2</weight>
 		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
 		<text />
@@ -11686,6 +12099,18 @@
     <modifier category="bonus">spell dc +3</modifier>
   </item>
   <item>
+        <name>Rod of the Vonindod</name>
+        <type>RD</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Rare</text>
+        <text />
+        <text>The ﬁre giant duke Zalto hired a wizard to craft several of these adamantine rods. Each measures 4 feet long, weighs 100 pounds, and is sized to ﬁt comfortably in a ﬁre giant’s hand. The rod has two prongs at one end and a molded handle grip on the opposite end.</text>
+        <text>The rod has 10 charges and regains 1d6 + 4 of its expended charges daily at dawn. As an action, you can grasp it by the handle and expend 1 charge to cast the locate object spell from it. When the rod is used to detect objects made of adamantine, such as fragments of the Vonindod construct, its range increases to 10 miles.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 236</text>
+        <roll>1d6+4</roll>
+    </item>
+    <item>
     <name>Rope of Climbing</name>
     <type>W</type>
     <weight>3</weight>
@@ -11710,6 +12135,7 @@
   <item>
 		<name>Sack</name>
 		<type>G</type>
+		<value>1cp</value>
 		<weight>0.5</weight>
 		<text>A sack can hold up to 1 cubic foot or 30 pounds of gear.</text>
 		<text />
@@ -11747,6 +12173,7 @@
   <item>
 		<name>Scale Mail</name>
 		<type>MA</type>
+		<value>50gp</value>
 		<weight>45</weight>
 		<ac>14</ac>
 		<stealth>YES</stealth>
@@ -11925,6 +12352,7 @@
   <item>
 		<name>Scholar's Pack</name>
 		<type>G</type>
+		<value>40gp</value>
 		<weight>10</weight>
 		<text>Includes:</text>
 		<text />
@@ -11947,6 +12375,7 @@
 	<item>
 		<name>Scimitar</name>
 		<type>M</type>
+		<value>25gp</value>
 		<weight>3</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>S</dmgType>
@@ -12191,6 +12620,7 @@
   </item>
   <item>
 		<name>Sealing Wax</name>
+		<value>5sp</value>
 		<type>G</type>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -12238,6 +12668,7 @@
   <item>
 		<name>Serpent Venom (Injury)</name>
 		<type>G</type>
+		<value>200gp</value>
 		<weight>0</weight>
 		<text>This poison must be harvested from a dead or incapacitated giant poisonous snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
@@ -12245,8 +12676,26 @@
 		<roll>3d6</roll>
 	</item>
 	<item>
+        <name>Shard of the Ise Rune</name>
+        <type>W</type>
+        <text>This item requires attunement</text>
+        <text>Rarity: Very Rare</text>
+        <text />
+        <text>This shard of ice is long and slender, roughly the size of a dagger. The ise (ice) rune glows within it. The shard has the following properties, which work only while it’s on your person.</text>
+        <text>Frigid Touch: As an action, you can touch a body of water and freeze the water in a 10-foot-radius sphere around the spot you touched. Once you use this property, you can't use it again until you ﬁnish a short or long rest.</text>
+        <text>Frost Friend: You have resistance to ﬁre damage.</text>
+        <text>Icy Mantle: As an action, you can touch yourself or another creature with water on your ﬁnger. The water creates an icy mantle of protection. The next time within the next minute that the target takes bludgeoning, slashing, or piercing damage, that damage is reduced to 0, and the mantle is destroyed. Once you use this property, you can’t use it again until you ﬁnish a short or long rest. </text>
+        <text>Winters Howl: As an action, you can cast sleet storm (spell save DC 17). You regain this ability after you ﬁnish a short or long rest.</text>
+        <text>Gift of Frost. You can transfer the shard’s magic to a nonmagical item—a cloak or a pair of boots-by tracing the ise rune there with your ﬁnger. The transfer takes 8 hours of work that requires the two items to be within 5 feet of each other. At the end, the shard is destroyed, and the rune appears in blue on the chosen item, which gains a beneﬁt based on its form:</text>
+        <text>Cloak: The cloak is now a rare magic item that requires attunement. While wearing it, you have resistance to ﬁre damage, and you have advantage on Dexterity (Stealth) checks made while in snowy terrain.</text>
+        <text>Boots: The pair of boots is now a rare magic item that requires attunement. While wearing it, you ignore difficult terrain while walking, and you can walk on water.</text>
+        <text />
+        <text>Source: Storm King's Thunder, page 236</text>
+    </item>
+    <item>
 		<name>Shawm</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>1</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -12259,6 +12708,7 @@
 	<item>
 		<name>Shield</name>
 		<type>S</type>
+		<value>10gp</value>
 		<weight>6</weight>
 		<ac>2</ac>
 		<text>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</text>
@@ -12314,6 +12764,7 @@
   <item>
 		<name>Shortbow</name>
 		<type>R</type>
+		<value>25gp</value>
 		<weight>2</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>P</dmgType>
@@ -12419,6 +12870,7 @@
   <item>
 		<name>Shortsword</name>
 		<type>M</type>
+		<value>10gp</value>
 		<weight>2</weight>
 		<dmg1>1d6</dmg1>
 		<dmgType>P</dmgType>
@@ -12562,12 +13014,14 @@
   <item>
 		<name>Shovel</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Sickle</name>
 		<type>M</type>
+		<value>1gp</value>
 		<weight>2</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>S</dmgType>
@@ -12641,17 +13095,20 @@
   </item>
   <item>
 		<name>Signal Whistle</name>
+		<value>5cp</value>
 		<type>G</type>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Signet Ring</name>
+		<value>5gp</value>
 		<type>G</type>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Silk Rope (50 feet)</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>5</weight>
 		<text>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</text>
 		<text />
@@ -12660,6 +13117,7 @@
 	<item>
 		<name>Silver (sp)</name>
 		<type>$</type>
+		<value>1sp</value>
 		<weight>0.02</weight>
 		<text>Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).</text>
 		<text />
@@ -12691,6 +13149,7 @@
   </item>
   <item>
 		<name>Sledge Hammer</name>
+		<value>2gp</value>
 		<type>G</type>
 		<weight>10</weight>
 		<text>Source: Player's Handbook, page 150</text>
@@ -12698,6 +13157,7 @@
 	<item>
 		<name>Sling</name>
 		<type>R</type>
+		<value>1sp</value>
 		<dmg1>1d4</dmg1>
 		<dmgType>B</dmgType>
 		<property>A</property>
@@ -12784,7 +13244,17 @@
   <item>
 		<name>Sling Bullets</name>
 		<type>A</type>
+		<value>0.2cp</value>
 		<weight>0.075</weight>
+		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
+		<text />
+		<text>Source: Player's Handbook, page 150</text>
+	</item>
+	<item>
+		<name>Sling Bullets (20)</name>
+		<type>A</type>
+		<value>4cp</value>
+		<weight>1.5</weight>
 		<text>Ammunition: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.</text>
 		<text />
 		<text>Source: Player's Handbook, page 150</text>
@@ -12854,6 +13324,7 @@
   <item>
 		<name>Smith's Tools</name>
 		<type>G</type>
+		<value>20gp</value>
 		<weight>8</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -12862,6 +13333,7 @@
 	<item>
 		<name>Soap</name>
 		<type>G</type>
+		<value>2cp</value>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
@@ -12876,6 +13348,7 @@
   <item>
 		<name>Spear</name>
 		<type>M</type>
+		<value>1gp</value>
 		<weight>3</weight>
 		<dmg1>1d6</dmg1>
 		<dmg2>1d8</dmg2>
@@ -13250,6 +13723,7 @@
   <item>
 		<name>Spellbook</name>
 		<type>G</type>
+		<value>50gp</value>
 		<weight>3</weight>
 		<text>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</text>
 		<text />
@@ -13300,6 +13774,7 @@
   <item>
 		<name>Spiked Armor</name>
 		<type>MA</type>
+		<value>75gp</value>
 		<weight>45</weight>
 		<ac>14</ac>
 		<stealth>YES</stealth>
@@ -13455,6 +13930,7 @@
   <item>
 		<name>Splint Armor</name>
 		<type>HA</type>
+		<value>200gp</value>
 		<weight>60</weight>
 		<ac>17</ac>
 		<strength>15</strength>
@@ -13635,6 +14111,7 @@
   <item>
 		<name>Sprig of Mistletoe</name>
 		<type>G</type>
+		<value>1gp</value>
 		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
@@ -13642,6 +14119,7 @@
 	<item>
 		<name>Spyglass</name>
 		<type>G</type>
+		<value>1000gp</value>
 		<weight>1</weight>
 		<text>Objects viewed through a spyglass are magnified to twice their size.</text>
 		<text />
@@ -13650,6 +14128,7 @@
 	<item>
 		<name>Staff</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>4</weight>
 		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
 		<text />
@@ -13901,6 +14380,7 @@
   <item>
 		<name>Steel Mirror</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>0.5</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
@@ -13953,6 +14433,7 @@
   <item>
 		<name>Studded Leather Armor</name>
 		<type>LA</type>
+		<value>45gp</value>
 		<weight>13</weight>
 		<ac>12</ac>
 		<text>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</text>
@@ -14150,7 +14631,7 @@
     <modifier category="bonus">melee attacks +2</modifier>
     <modifier category="bonus">melee damage +2</modifier>
   </item>
-<item>
+    <item>
     <name>Sword of Answering (Answerer)</name>
     <type>M</type>
     <weight>3</weight>
@@ -14406,6 +14887,7 @@
   <item>
 		<name>Tankard</name>
 		<type>G</type>
+		<value>1cp</value>
 		<text>A tankard holds 1 pint of liquid.</text>
 		<text />
 		<text>Source: Player's Handbook, page 153</text>
@@ -14426,6 +14908,7 @@
   <item>
 		<name>Thieves' Tools</name>
 		<type>G</type>
+		<value>25gp</value>
 		<weight>1</weight>
 		<text>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</text>
 		<text />
@@ -14434,6 +14917,7 @@
 	<item>
 		<name>Three-Dragon Ante Set</name>
 		<type>G</type>
+		<value>1gp</value>
 		<text>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</text>
 		<text />
 		<text>Source: Player's Handbook, page 154</text>
@@ -14441,6 +14925,7 @@
 	<item>
 		<name>Tinderbox</name>
 		<type>G</type>
+		<value>5sp</value>
 		<weight>1</weight>
 		<text>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</text>
 		<text />
@@ -14481,6 +14966,7 @@
   <item>
 		<name>Tinker's Tools</name>
 		<type>G</type>
+		<value>50gp</value>
 		<weight>10</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -14538,6 +15024,7 @@
   <item>
 		<name>Torch</name>
 		<type>G</type>
+		<value>1cp</value>
 		<weight>1</weight>
 		<text>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</text>
 		<text />
@@ -14546,6 +15033,7 @@
 	<item>
 		<name>Torpor (Ingested)</name>
 		<type>G</type>
+		<value>600gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.</text>
 		<text />
@@ -14555,6 +15043,7 @@
 	<item>
 		<name>Totem</name>
 		<type>G</type>
+		<value>1gp</value>
 		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
@@ -14562,12 +15051,14 @@
 	<item>
 		<name>Traveler's Clothes</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>4</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Trident</name>
 		<type>M</type>
+		<value>5gp</value>
 		<weight>4</weight>
 		<dmg1>1d6</dmg1>
 		<dmg2>1d8</dmg2>
@@ -14912,6 +15403,7 @@
 	<item>
 		<name>Truth Serum (Ingested)</name>
 		<type>G</type>
+		<value>150gp</value>
 		<weight>0</weight>
 		<text>A creature subjected to thi poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.</text>
 		<text />
@@ -14920,6 +15412,7 @@
 	<item>
 		<name>Two-Person Tent</name>
 		<type>G</type>
+		<value>2gp</value>
 		<weight>20</weight>
 		<text>A simple and portable canvas shelter, a tent sleeps two.</text>
 		<text />
@@ -14936,6 +15429,7 @@
   <item>
 		<name>Vial</name>
 		<type>G</type>
+		<value>1gp</value>
 		<text>A vial can hold up to 4 ounces of liquid.</text>
 		<text />
 		<text>Source: Player's Handbook, page 153</text>
@@ -15551,6 +16045,7 @@
   <item>
 		<name>Viol</name>
 		<type>G</type>
+		<value>30gp</value>
 		<weight>1</weight>
 		<text>If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument.</text>
 		<text />
@@ -15625,6 +16120,7 @@
   <item>
 		<name>Wand</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>1</weight>
 		<text>An arcane focus is a special item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus, using it in place of any material component which does not list a cost.</text>
 		<text />
@@ -15926,6 +16422,7 @@
   <item>
 		<name>War Pick</name>
 		<type>M</type>
+		<value>5gp</value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmgType>P</dmgType>
@@ -15985,6 +16482,7 @@
   <item>
 		<name>Warhammer</name>
 		<type>M</type>
+		<value>15gp</value>
 		<weight>2</weight>
 		<dmg1>1d8</dmg1>
 		<dmg2>1d10</dmg2>
@@ -16064,6 +16562,7 @@
   <item>
 		<name>Waterskin</name>
 		<type>G</type>
+		<value>2sp</value>
 		<weight>5</weight>
 		<text>A waterskin can hold up to 4 pints of liquid.</text>
 		<text />
@@ -16098,6 +16597,7 @@
   <item>
 		<name>Weaver's Tools</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -16153,12 +16653,14 @@
   <item>
 		<name>Whetstone</name>
 		<type>G</type>
+		<value>1cp</value>
 		<weight>1</weight>
 		<text>Source: Player's Handbook, page 150</text>
 	</item>
 	<item>
 		<name>Whip</name>
 		<type>M</type>
+		<value>2gp</value>
 		<weight>3</weight>
 		<dmg1>1d4</dmg1>
 		<dmgType>S</dmgType>
@@ -16351,6 +16853,7 @@
   <item>
 		<name>Woodcarver's Tools</name>
 		<type>G</type>
+		<value>1gp</value>
 		<weight>5</weight>
 		<text>These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.</text>
 		<text />
@@ -16359,14 +16862,36 @@
 	<item>
 		<name>Wooden Staff</name>
 		<type>G</type>
+		<value>5gp</value>
 		<weight>4</weight>
 		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
 		<text />
 		<text>Source: Player's Handbook, page 151</text>
 	</item>
 	<item>
+        <name>Wyrmskull Throne</name>
+        <type>W</type>
+        <text>Rarity: Artifact</text>
+        <text />
+        <text>Built by dwarven gods and entrusted to the rulers of Shanatar, an ancient dwarven empire. the Wyrmskull Throne was a symbol of dwarven power and pride for ages untold. The throne hovers a foot off the ground and is a massive thing made of polished obsidian with oversized feet—the impaled skulls of four ancient blue dragons. Runes glisten in the carved obsidian winking to life with blue energy when the throne's powers are activated.</text>
+        <text>After the fall of Shanatar, the Wyrmskull Throne fell into the clutches of less honorable creatures. A band of adventurers wrested the throne from the aquatic elf tyrant Gantar Kraok and sold it to the storm giant Neri for a considerable fortune. Neri had the throne magically enlarged and gave it to her husband, King Hekaton, as a gift, along with one of the Ruling Scepters of Shanatar, which she had found in a wreck at the bottom of the Trackless Sea. Only a creature attuned to a Ruling Scepter and in possession of it can harness the powers of the Wyrmskull Throne, which has become the centerpiece of King Ilekaton’s throne room in the undersea citadel of Maelstrom. Fear of the throne's power has helped prevent evil giants from challenging or threatening Hekaton's leadership.</text>
+        <text>Any creature not attuned to a Ruling Scepter who sits on the throne is paralyzed and encased in a magical force ﬁeld. While encased, the creature can't be touched or moved from the throne. Touching a Ruling Scepter to the force ﬁeld dispels the ﬁeld, though the creature remains paralyzed until it is separated from the throne.</text>
+        <text>Any creature seated on the throne can hear faint Whispers in Draconic- the whisperings of four blue dragons whose skulls adorn the throne. Although powerless, these spirits try to influence the decisions of the throne's master</text>
+        <text>Properties of the Throne: The throne has 9 charges and regains all expended charges daily at dawn. A creature that sits on the throne while attuned to a Ruling Sceptor in its possession can harness the throne’s properties, which are as follows:</text>
+        <text>The throne gains a ﬂying speed of 30 feet and can hover and ﬂies where the creature wills. This property doesn’t expend any charges.</text>
+        <text>Both the throne and the creature sitting on it can move through earth and stone without disturbing the material they move through. This property doesn't expend any charges.</text>
+        <text>As an action, the creature can expend 1 charge to cast lightning bolt (spell save DC 19) from the throne. The spell is cast as though using a 9th-level spell slot and deals 49 (14d6) lightning damage. The bolt discharges from the mouth of one of the throne’s blue dragon skulls.</text>
+        <text>As an action, the creature can expend 2 charges to cast the globe of invulnerability spell from the throne. The globe encloses both the creature and the throne.</text>
+        <text>As an action, the creature can expend 3 charges to create a spectral image of an ancient blue dragon that surrounds both it and the throne. The spectral dragon lasts for 1 minute. At the end of each of the creature’s turns, the spectral dragon makes one bite attack and two claw attacks against targets of the creature’s choice. These attacks have the same attack bonus, reach, and damage as an ancient blue dragon’s bite and claw attacks.</text>
+        <text />
+        <text>Destroying the Throne. The Wyrmskull Throne can be destroyed by breaking at least ﬁve Ruling Scepters of Shanatar simultaneously on it. This fact has never been recorded or sung of among the dwarves or any bards or storytellers, and it can’t be discovered with an ability check. Characters who want to destroy the throne must go on a quest to learn the method for doing so. The throne’s destruction triggers an explosion, as shards of obsidian ﬂy out in all directions. Each creature and object within a 30-foot-radius sphere centered on the throne must succeed on a DC 21 Dexterity saving throw, taking 70 (2Od6) slashing damage on a failed save, or half as much damage on a successful one. </text>
+        <text />
+        <text>Source: Storm King's Thunder, page 237</text>
+    </item>
+<item>
 		<name>Wyvern Poison (Injury)</name>
 		<type>G</type>
+		<value>1200gp</value>
 		<weight>0</weight>
 		<text>This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</text>
 		<text />
@@ -16376,6 +16901,7 @@
 	<item>
 		<name>Yew Wand</name>
 		<type>G</type>
+		<value>10gp</value>
 		<weight>1</weight>
 		<text>A druid can use such a druidic focus as a spellcasting focus, using it in place of any material component that does not have a cost.</text>
 		<text />
